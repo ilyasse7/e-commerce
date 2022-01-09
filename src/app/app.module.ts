@@ -10,6 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 import {FormsModule} from "@angular/forms";
 import {HttpClientModule} from "@angular/common/http";
 import { FooterComponent } from './shared/footer/footer.component';
+import { LangingPageComponent } from './langing-page/langing-page.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { FooterComponent } from './shared/footer/footer.component';
     AppComponent,
     NavbarComponent,
     RegistrationComponent,
-    FooterComponent
+    FooterComponent,
+    LangingPageComponent
   ],
   imports: [
     BrowserModule,
